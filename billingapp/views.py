@@ -8,7 +8,7 @@ from django.http import HttpResponseRedirect
 from django.views.decorators.csrf import csrf_exempt
 from PayTm import Checksum
 from .models import *
-MERCHANT_KEY = '43@KVFFXcKDRsuod'
+MERCHANT_KEY = '646565s6fs6fs6f6sf5'
 # Create your views here.
 def index(request):
     return render(request,'index.html')
